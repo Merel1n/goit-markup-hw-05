@@ -64,6 +64,60 @@
           <h1 class="page-main-title">Effective Solutions for Your Business</h1>
           <button type="button" class="page-main-button">Order Service</button>
         </div>
+        <div class="modal">
+          <div class="modal-close-icon">
+            <svg class="modal-icon" width="8" height="8">
+              <use href="./images/icons.svg#icon-close-black"></use>
+            </svg>
+          </div>
+          <p class="modal-text">
+            Leave your contacts and we will call you back
+          </p>
+          <form>
+            <div class="form-item">
+              <label for="user-name" class="modal-label">Name</label>
+              <div>
+                <input
+                  class="modal-input"
+                  id="user-name"
+                  type="text"
+                  name="user-name"
+                />
+                <svg class="form-icon" width="18" height="24">
+                  <use href="./images/icons.svg#icon-person-black"></use>
+                </svg>
+              </div>
+            </div>
+            <div class="form-item">
+              <label for="user-phone" class="modal-label">Phone</label>
+              <div>
+                <input
+                  class="modal-input"
+                  id="user-phone"
+                  type="tel"
+                  name="user-phone"
+                />
+                <svg class="form-icon" width="18" height="24">
+                  <use href="./images/icons.svg#icon-phone-black"></use>
+                </svg>
+              </div>
+            </div>
+            <div class="form-item">
+              <label for="user-email" class="modal-label">Email</label>
+              <div>
+                <input
+                  class="modal-input"
+                  id="user-email"
+                  type="email"
+                  name="user-email"
+                />
+                <svg class="form-icon" width="18" height="24">
+                  <use href="./images/icons.svg#icon-email-black"></use>
+                </svg>
+              </div>
+            </div>
+          </form>
+        </div>
       </section>
       <!--List Effective Solutions for Your Business -->
       <section class="benefits">
@@ -482,6 +536,7 @@
               <input
                 type="email"
                 name="user-email"
+                id="user-email"
                 placeholder="E-mail"
                 class="footer-input"
               />
