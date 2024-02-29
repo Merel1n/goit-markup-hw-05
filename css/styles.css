@@ -640,8 +640,6 @@ input {
   justify-content: center;
   fill: transparent;
 }
-.checkbox-modal:checked {
-}
 .checkbox-modal:checked + .checkbox .spam-icon {
   fill: #f4f4fd;
   background-color: #404bbf;
